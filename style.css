@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+
+.space {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  perspective-origin: 50vw 50vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  background-image: url('./EnriqueElBonero.jpg');
+  background-position: center center;
+  background-size: contain;
+  width: 550px;
+  height: 550px;
+}
+
